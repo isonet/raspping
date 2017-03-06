@@ -1,0 +1,4 @@
+cron:
+- description: check if online
+  url: /
+  schedule: every 1 mins

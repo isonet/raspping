@@ -1,0 +1,10 @@
+application: raspping
+version: 1
+runtime: python27
+threadsafe: 1
+api_version: 1
+
+handlers:
+- url: /
+  script: raspping.app
+  login: admin
